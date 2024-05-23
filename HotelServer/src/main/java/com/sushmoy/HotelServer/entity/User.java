@@ -1,6 +1,7 @@
 package com.sushmoy.HotelServer.entity;
 
 
+import com.sushmoy.HotelServer.dto.UserDto;
 import com.sushmoy.HotelServer.enums.UserRole;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -56,4 +57,18 @@ public class User implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+
+    public UserDto getUserDto(){
+        UserDto dto = new UserDto();
+        dto.setId(id);
+        dto.setName(name);
+        dto.setEmail(email);
+        dto.setUserRole(userRole);
+
+        return dto;
+    }
+
+
+
+
 }
