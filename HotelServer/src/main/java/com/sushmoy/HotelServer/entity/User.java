@@ -1,7 +1,7 @@
-package com.sushmoyceo.HotelServer.entity;
+package com.sushmoy.HotelServer.entity;
 
 
-import com.sushmoyceo.HotelServer.enums.UserRole;
+import com.sushmoy.HotelServer.enums.UserRole;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

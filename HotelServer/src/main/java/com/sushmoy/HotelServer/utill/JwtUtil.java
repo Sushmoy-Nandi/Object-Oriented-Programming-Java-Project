@@ -1,4 +1,4 @@
-package com.sushmoyceo.HotelServer.utill;
+package com.sushmoy.HotelServer.utill;
 
 
 import io.jsonwebtoken.Claims;

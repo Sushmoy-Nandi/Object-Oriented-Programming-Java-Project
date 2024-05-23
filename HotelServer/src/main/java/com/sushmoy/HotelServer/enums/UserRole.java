@@ -1,4 +1,4 @@
-package com.sushmoyceo.HotelServer.enums;
+package com.sushmoy.HotelServer.enums;
 
 public enum UserRole {
 
